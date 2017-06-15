@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "globals":{
+        "ENV": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4 // 4 spaces,  original is tab
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-console":[
+            "error",
+            {"allow":["info"]}
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
